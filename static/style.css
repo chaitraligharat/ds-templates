@@ -1,0 +1,87 @@
+body {
+    font-family: arial, sans-serif;
+    font-size: .75rem;
+    width:95%;
+}
+a {
+    color: blue;
+}
+header h1 a{
+    text-decoration: none;
+    color: black;
+
+}
+nav{
+    margin: .2rem;
+}
+h1, h2, h3, h4 {
+    margin-bottom: 0;
+}
+header {
+    border-top: 3px solid #36c;
+
+    overflow:hidden;
+    padding: .25em;
+    background-color: #dde;
+    height:6vh; 
+    line-height:6vh;
+    padding-top: .75em;
+    text-align: center;
+    width:100%;
+}
+header h1 {
+    font-size: 1.5rem;
+    float: left;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0 0 0 .3em;
+}
+header li {
+    font-size: 1.15;
+    display: inline;
+    padding: .25em;
+    background: #FFFFFF;
+
+    -webkit-border-radius: 3em;
+    -moz-border-radius: 3em;
+    border-radius: 3em;
+}
+header ul {
+    list-style: none;
+    text-align: right;
+    float:right;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+}
+header li a.current {
+    color: black;
+    text-decoration: none;
+    margin: 2em;
+    text-transform: uppercase;
+}
+
+header a{
+    color: #36c;
+    text-decoration: none;
+    margin: 2em;
+}
+
+
+#content{
+    border: 3px solid #36c;
+    overflow: hidden;
+    width:100%;
+}
+
+#content img{
+    float:left;
+}
+
+/* This manner of centering only works on single line of text */
+footer {
+    background-color: #dde;
+    height:2rem; 
+    line-height:2rem;
+    text-align: center;
+}
